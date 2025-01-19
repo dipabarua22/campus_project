@@ -1,0 +1,19 @@
+h2 {
+    font-size: 2.5rem; /* Increased font size for larger headings */
+    margin-bottom: 1.5rem;
+    color: #0dac3d;
+  }
+  
+  /* Paragraph Styles */
+  p {
+    font-size: 1.2rem; /* Increased font size for paragraphs */
+    margin-bottom: 1.5rem;
+  }
+  
+  /* List Styles */
+  ul {
+    list-style: disc;
+    margin-left: 20px;
+    font-size: 1.1rem; /* Increased font size for list items */
+  }
+  

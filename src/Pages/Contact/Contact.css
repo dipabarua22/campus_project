@@ -1,0 +1,60 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 40px;
+    background-color: #f9f9f9;
+    margin-top: 40px;
+  }
+  
+  .card {
+    text-align: center;
+    background: #becac0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(6, 209, 84, 0.1);
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth animation */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow */
+  }
+  
+  .card h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #20af06;
+
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #110b0b;
+  }
+  
+  .card p strong {
+    color: #333;
+  }
+  
+  /* Icon Colors */
+  .card:nth-child(1) .icon {
+    color: #007bff; /* Blue for location */
+  }
+  
+  .card:nth-child(2) .icon {
+    color: #28a745; /* Green for contact info */
+  }
+  
+  .card:nth-child(3) .icon {
+    color: #ffc107; /* Yellow for timer */
+  }
+  
+  
